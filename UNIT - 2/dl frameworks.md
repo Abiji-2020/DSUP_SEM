@@ -201,7 +201,7 @@ Data visualization techniques are often classified based on the nature of the da
 | Technique | Description | Visualization Channel |
 | :--- | :--- | :--- |
 | **Color Mapping** | Maps scalar data values to colors using a **color lookup table (LUT)**. This is useful for seeing how values vary spatially. Types include Luminance (grayscale) or Rainbow colormaps. | Color, Luminance. |
-| **Contouring** | Defines lines (in 2D, **isoline**) or surfaces (in 3D, **isosurface**) where all points share the exact same scalar value ($C(x) = \{p \in D | s(p) = x\}$). Contours show the boundaries of similar scalar magnitude. | Position, Line. |
+| **Contouring** | Defines lines (in 2D, **isoline**) or surfaces (in 3D, **isosurface**) where all points share the exact same scalar value ($C(x) = \{p \in D \| s(p) = x\}$). Contours show the boundaries of similar scalar magnitude. | Position, Line. |
 | **Height Plots (Point Technique)** | Maps scalar values to the height of a surface, warping the surface along its normal proportional to the scalar value. This is a particular case of displacement or warped plots. | Position (Elevation). |
 
 **Contour Visualization Concept:**
