@@ -24,7 +24,7 @@ In this non-probabilistic view, the model is a predictor function $f$ that takes
 
 *   **Definition:** A predictor is a function $f: \mathbb{R}^D \rightarrow \mathbb{R}$, where the input vector $\mathbf{x}$ is $D$-dimensional.
 *   **Example (Linear Function):** The special case of linear functions is often used, defined as:
-    $$ f(\mathbf{x}) = \theta^T \mathbf{x} + \theta_0 $$
+    $f(\mathbf{x}) = \theta^T \mathbf{x} + \theta_0$
     where $\theta$ and $\theta_0$ are unknown parameters.
 
 **B. Models as Probabilistic Distributions**
