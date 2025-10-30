@@ -34,7 +34,7 @@ NCV is essential for mitigating bias in generalization error estimates that can 
 
 For probabilistic models, the Marginal Likelihood provides a principled, unified tool for model selection and comparison.
 
-**A. The Role of Marginal Likelihood ($p(\mathbf{x})$)**
+**A. The Role of Marginal Likelihood ( $p(\mathbf{x})$ )**
 The marginal likelihood, denoted as $p(\mathbf{x})$, is of central importance in probabilistic modeling, particularly for model selection.
 
 *   **Computation:** The marginal likelihood is computed by taking the **joint distribution** $p(\mathbf{x}, \theta)$ (of observed variables $\mathbf{x}$ and hidden parameters $\theta$) and integrating out the parameters $\theta$ (using the sum rule of probability).
