@@ -252,7 +252,7 @@ A (Alice)                                S (Server/KDC)                         
                                                                    |
                                                                (Shared Secret KAB established)
 ```
-*Note: $E(K, [\dots])$ denotes encryption under key $K$.*
+*Note: * $E(K, [\dots])$ denotes encryption under key $K$.
 
 ### X. ASCII Diagram: Challenge-Response Mechanism (CRAM)
 
@@ -491,8 +491,8 @@ CMAC is an evolution of CBC-MAC designed by NIST to overcome the fixed-length li
 *   CMAC is designed for use with **AES** and ***Triple DES***.
 *   It utilizes the block size of the underlying cipher (128 bits for AES or 64 bits for Triple-DES).
 *   The message $M$ is divided into blocks $M_1..M_n$ and *padded if necessary*.
-*   The algorithm uses a $k$-bit encryption key $K$ and *two $n$-bit constants* $K_1$ or $K_2$.
-*   $K_1$ and $K_2$ are derived from the original key $K$ using encryption of 0 and *multiplication in $GF(2^n)$*.
+*   The algorithm uses a $k$-bit encryption key $K$ and *two* $n$ *-bit constants* $K_1$ or $K_2$.
+*   $K_1$ and $K_2$ are derived from the original key $K$ using encryption of 0 and *multiplication in* $GF(2^n)$.
 *   $K_1$ is used if the message is *not padded*, and $K_2$ is used if the message *was padded*.
 
 ### VIII. CMAC Operation (Conceptual)
